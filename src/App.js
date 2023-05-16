@@ -8,20 +8,19 @@ import Blog from './Components/Blog'
 
 const App = () => {
   return (
-    <Home/>
-    // <BrowserRouter>
-    // <div>
-    //   <Header/>
-    //   <div className="content">
-    //   <Routes>
-    //     <Route path="/" element={<Home/>}/>
-    //     <Route path="/projects" element={<Projects/>}/>
-    //     <Route path="/blog" element={<Blog/>}/>
-    //   </Routes>
-    //   </div>
-    //   <Footer/>
-    // </div>
-    // </BrowserRouter>
+    <BrowserRouter>
+    <div>
+      <Header/>
+      <div className="content">
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/projects" element={<Projects/>}/>
+        <Route path="/blog" element={<Blog/>}/>
+      </Routes>
+      </div>
+      <Footer/>
+    </div>
+    </BrowserRouter>
   )
 }
 
