@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/personal-site/static/css/main.f5076832.css",
-    "main.js": "/personal-site/static/js/main.897175ba.js",
-    "static/media/monkey.gif": "/personal-site/static/media/monkey.2b44a02b0c43e7020026.gif",
-    "static/media/Interests.png": "/personal-site/static/media/Interests.9b3ca425bdee7a955d35.png",
-    "static/media/scu.png": "/personal-site/static/media/scu.2acaf7b078d169fbb1cd.png",
-    "static/media/poker.png": "/personal-site/static/media/poker.1fe03f928b85ad257db6.png",
-    "static/media/whatever.png": "/personal-site/static/media/whatever.958a71dbff5d0ab3c3d9.png",
-    "static/media/skills.png": "/personal-site/static/media/skills.00581651e891e0abeb6d.png",
-    "static/media/fourier.png": "/personal-site/static/media/fourier.d0acc354ff6ea3aa9db4.png",
-    "static/media/mario.png": "/personal-site/static/media/mario.f6be98480ccc27ef6cae.png",
-    "static/media/mandelbrot.jpg": "/personal-site/static/media/mandelbrot.640a6074c104a3053219.jpg",
-    "index.html": "/personal-site/index.html",
-    "main.f5076832.css.map": "/personal-site/static/css/main.f5076832.css.map",
-    "main.897175ba.js.map": "/personal-site/static/js/main.897175ba.js.map"
+    "main.css": "/personal-website/static/css/main.f5076832.css",
+    "main.js": "/personal-website/static/js/main.8e920761.js",
+    "static/media/monkey.gif": "/personal-website/static/media/monkey.2b44a02b0c43e7020026.gif",
+    "static/media/Interests.png": "/personal-website/static/media/Interests.9b3ca425bdee7a955d35.png",
+    "static/media/scu.png": "/personal-website/static/media/scu.2acaf7b078d169fbb1cd.png",
+    "static/media/poker.png": "/personal-website/static/media/poker.1fe03f928b85ad257db6.png",
+    "static/media/whatever.png": "/personal-website/static/media/whatever.958a71dbff5d0ab3c3d9.png",
+    "static/media/skills.png": "/personal-website/static/media/skills.00581651e891e0abeb6d.png",
+    "static/media/fourier.png": "/personal-website/static/media/fourier.d0acc354ff6ea3aa9db4.png",
+    "static/media/mario.png": "/personal-website/static/media/mario.f6be98480ccc27ef6cae.png",
+    "static/media/mandelbrot.jpg": "/personal-website/static/media/mandelbrot.640a6074c104a3053219.jpg",
+    "index.html": "/personal-website/index.html",
+    "main.f5076832.css.map": "/personal-website/static/css/main.f5076832.css.map",
+    "main.8e920761.js.map": "/personal-website/static/js/main.8e920761.js.map"
   },
   "entrypoints": [
     "static/css/main.f5076832.css",
-    "static/js/main.897175ba.js"
+    "static/js/main.8e920761.js"
   ]
 }
