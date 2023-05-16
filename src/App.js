@@ -1,14 +1,13 @@
 import React from 'react'
 import { Header } from './Components/Header'
 import Home from './Components/Home'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Footer from './Components/Footer'
 import Projects from './Components/Projects'
 import Blog from './Components/Blog'
 
 const App = () => {
   return (
-    <BrowserRouter>
     <div>
       <Header/>
       <div className="content">
@@ -20,7 +19,6 @@ const App = () => {
       </div>
       <Footer/>
     </div>
-    </BrowserRouter>
   )
 }
 
