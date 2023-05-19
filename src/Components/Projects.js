@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import ProjectWidget from './ProjectWidget'
 import WidgetPopup from './WidgetPopup'
+import { BrowserView, MobileView } from 'react-device-detect'
 
 
 const Projects = () => {
@@ -53,6 +54,8 @@ const Projects = () => {
     },
   ]
   return (
+    <>
+    <BrowserView>
     <div className="project-widgets-container">
         {
           activeModal === -1 ? <div/> : <WidgetPopup img={projects[activeModal].img} link={projects[activeModal].link} heading={projects[activeModal].heading} caption={projects[activeModal].long} click={onClick}/>
@@ -67,7 +70,15 @@ const Projects = () => {
         <ProjectWidget index={4} click={onClick} img={projects[4].img} heading={projects[4].heading} caption={projects[4].caption}/>
         <ProjectWidget index={5} click={onClick} img={projects[5].img} heading={projects[5].heading} caption={projects[5].caption}/>
         </div>
-         </div>
+         
+      </div>
+        </BrowserView>
+        <MobileView>
+          <div className="m-flex-column">
+          {projects.map((proj) => <ProjectWidget index={-1} click={"click"} img={proj.img} heading={proj.heading} caption={proj.caption}/>)}
+          </div>
+        </MobileView>
+      </>
   )
 }
 
