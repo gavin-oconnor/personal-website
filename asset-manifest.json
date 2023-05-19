@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.f5076832.css",
-    "main.js": "/personal-website/static/js/main.6a6fadc7.js",
+    "main.css": "/personal-website/static/css/main.8059dd4b.css",
+    "main.js": "/personal-website/static/js/main.783f3220.js",
     "static/media/monkey.gif": "/personal-website/static/media/monkey.2b44a02b0c43e7020026.gif",
     "static/media/Interests.png": "/personal-website/static/media/Interests.9b3ca425bdee7a955d35.png",
     "static/media/scu.png": "/personal-website/static/media/scu.2acaf7b078d169fbb1cd.png",
@@ -12,11 +12,11 @@
     "static/media/mario.png": "/personal-website/static/media/mario.f6be98480ccc27ef6cae.png",
     "static/media/mandelbrot.jpg": "/personal-website/static/media/mandelbrot.640a6074c104a3053219.jpg",
     "index.html": "/personal-website/index.html",
-    "main.f5076832.css.map": "/personal-website/static/css/main.f5076832.css.map",
-    "main.6a6fadc7.js.map": "/personal-website/static/js/main.6a6fadc7.js.map"
+    "main.8059dd4b.css.map": "/personal-website/static/css/main.8059dd4b.css.map",
+    "main.783f3220.js.map": "/personal-website/static/js/main.783f3220.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5076832.css",
-    "static/js/main.6a6fadc7.js"
+    "static/css/main.8059dd4b.css",
+    "static/js/main.783f3220.js"
   ]
 }
